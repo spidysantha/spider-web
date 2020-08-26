@@ -1,0 +1,18 @@
+Here is the Commands of PhoneSploit Tool:
+Copy it carefully and paste in your terminal and run it.
+
+[Watch Complete Video Without Skip]
+
+pkg update -y
+
+pkg upgrade -y
+
+git clone https://github.com/Zucccs/PhoneSploit
+
+cd PhoneSploit
+
+pip install colorama
+
+apt update > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1 && wget https://github.com/MasterDevX/Termux-ADB/raw/master/InstallTools.sh -q && bash InstallTools.sh
+
+python2 main_linux.py
